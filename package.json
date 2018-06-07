@@ -1,0 +1,22 @@
+{
+    "name": "alloy-theme",
+    "displayName": "Alloy Theme",
+    "description": "A more monochromatic, subdued Monokai theme.",
+    "version": "0.0.1",
+    "publisher": "officerhalf",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Alloy",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Alloy.json"
+            }
+        ]
+    }
+}
