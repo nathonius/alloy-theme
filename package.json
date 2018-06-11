@@ -19,7 +19,7 @@
         "url": "https://github.com/OfficerHalf/alloy-theme"
     },
     "homepage": "https://github.com/OfficerHalf/alloy-theme",
-    "icon": "/doc/icon.png",
+    "icon": "doc/icon.png",
     "contributes": {
         "themes": [
             {
