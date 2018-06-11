@@ -2,7 +2,7 @@
     "name": "alloy-theme",
     "displayName": "Alloy Theme",
     "description": "A more monochromatic, subdued Monokai theme.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "officerhalf",
     "engines": {
         "vscode": "^1.24.0"
@@ -10,7 +10,16 @@
     "categories": [
         "Themes"
     ],
-    "icon": "./doc/icon.png",
+    "bugs": {
+        "type": "git",
+        "url": "https://github.com/OfficerHalf/alloy-theme/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OfficerHalf/alloy-theme"
+    },
+    "homepage": "https://github.com/OfficerHalf/alloy-theme",
+    "icon": "https://raw.githubusercontent.com/OfficerHalf/alloy-theme/master/doc/icon.png",
     "contributes": {
         "themes": [
             {
