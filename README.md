@@ -1,13 +1,16 @@
-# README
-## This is the README for your extension "alloy-theme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Alloy Theme
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+A more monochromatic, desaturated Monokai theme.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Install
 
-**Enjoy!**
+press `ctl/command + shift + p` to launch the command palette then run
+```
+ext install alloy-theme
+```
+
+## Screenshot
+![Theme Screenshot](doc/Screenshot1.png)
+
+## Changelog
+You can take a look at the change log [here](CHANGELOG.md)

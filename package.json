@@ -10,6 +10,7 @@
     "categories": [
         "Themes"
     ],
+    "icon": "./doc/icon.png",
     "contributes": {
         "themes": [
             {
