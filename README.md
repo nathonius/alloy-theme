@@ -1,6 +1,6 @@
 # Alloy Theme
 
-A more monochromatic, desaturated Monokai theme. [Also available for prismjs](https://github.com/OfficerHalf/alloy-theme-prismjs).
+A more monochromatic, desaturated Monokai theme. Also available for [prismjs](https://github.com/OfficerHalf/alloy-theme-prismjs) and [Cmder](https://gist.github.com/OfficerHalf/15e58676b29dfde1a85a2945799e66b4).
 
 ## Install
 
