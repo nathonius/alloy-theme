@@ -6,7 +6,9 @@
   "scripts": {
     "build": "tsc",
     "render": "node build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vscode:package": "cd vscode && npx vsce package",
+    "vscode:publish": "cd vscode && npx vsce publish"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,11 @@
   "bugs": {
     "url": "https://github.com/OfficerHalf/alloy-theme/issues"
   },
-  "homepage": "https://github.com/OfficerHalf/alloy-theme#readme",
+  "homepage": "https://github.com/OfficerHalf/alloy-theme/tree/master/vscode#readme",
   "devDependencies": {
     "@types/color": "^3.0.1",
     "@types/node": "^14.10.1",
-    "color": "^3.1.2"
+    "color": "^3.1.2",
+    "vsce": "^1.79.5"
   }
 }
