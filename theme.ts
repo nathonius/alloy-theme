@@ -47,15 +47,4 @@ export const theme = {
   error: error, // #F47777
 };
 
-// console.log(theme["foreground-darker-2"].hex());
-// console.log(theme["blue-darker-1"].hex());
-
-// const newBlueDarker = color({ h: 218, s: 61, l: 74 });
-// const newBlue = newBlueDarker.lighten(0.212).saturate(0.68);
-
-// console.log(newBlueDarker.hex()); // #95B2E5
-// console.log(newBlue.hex()); // #CADEFF
-
-console.log(theme.red.rgbNumber());
-
 export default theme;

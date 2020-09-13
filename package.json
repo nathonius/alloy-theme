@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "render": "node build.js",
+    "build": "tsc && node build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "vscode:package": "cd vscode && npx vsce package",
     "vscode:publish": "cd vscode && npx vsce publish"

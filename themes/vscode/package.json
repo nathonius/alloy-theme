@@ -18,7 +18,7 @@
         "type": "git",
         "url": "https://github.com/OfficerHalf/alloy-theme/"
     },
-    "homepage": "https://github.com/OfficerHalf/alloy-theme/tree/master/vscode#readme",
+    "homepage": "https://github.com/OfficerHalf/alloy-theme/tree/master/themes/vscode#readme",
     "icon": "doc/icon.png",
     "contributes": {
         "themes": [
