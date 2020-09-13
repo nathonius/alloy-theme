@@ -2,6 +2,7 @@ import { writeFileSync } from "fs";
 import theme from "./theme";
 import vscode from "./templates/vscode";
 import prismjs from "./templates/prismjs";
+import conemu from "./templates/conemu";
 
 // render vscode
 console.log("Reading vscode template...");
@@ -14,3 +15,9 @@ console.log("Reading prismjs template...");
 const alloyPrismjs = prismjs(theme, "./templates/prismjs.css");
 writeFileSync("./prismjs/prismjs-alloy.css", alloyPrismjs);
 console.log("Wrote prismjs/prismjs-alloy.css");
+
+// render conemu
+console.log("Reading conemu template...");
+const alloyConemu = conemu(theme, "./templates/conemu.xml");
+writeFileSync("./conemu/Alloy.xml", alloyConemu);
+console.log("Wrote conemu/Alloy.xml");

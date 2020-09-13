@@ -56,6 +56,6 @@ export const theme = {
 // console.log(newBlueDarker.hex()); // #95B2E5
 // console.log(newBlue.hex()); // #CADEFF
 
-console.log(theme["background-lighter-3"].alpha(0.5).string());
+console.log(theme.red.rgbNumber());
 
 export default theme;
