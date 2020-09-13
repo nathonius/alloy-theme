@@ -589,7 +589,7 @@ export function render(theme: typeof Theme) {
       {
         scope: "meta.structure.dictionary.json string.quoted.double.json",
         settings: {
-          foreground: `${theme["foreground-darker-1"].hex()}`,
+          foreground: `${theme.foreground.hex()}`,
         },
       },
       {
@@ -860,7 +860,7 @@ export function render(theme: typeof Theme) {
       {
         scope: "meta.structure.dictionary.json string.quoted.double.json",
         settings: {
-          foreground: `${theme["foreground-darker-1"].hex()}`,
+          foreground: `${theme.foreground.hex()}`,
         },
       },
       {
