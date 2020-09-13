@@ -16,7 +16,7 @@ const error = color({ h: 0, s: 85, l: 71 }); // #F47777
 export const theme = {
   background: background, // #282828
   "background-darker-1": background.darken(0.125), // #232323
-  "background-darker-2": background.darken(0.25), // ##1e1e1e
+  "background-darker-2": background.darken(0.25), // #1e1e1e
   "background-lighter-1": background.lighten(0.25), // #333333
   "background-lighter-2": background.lighten(0.625), // #424242
   "background-lighter-3": background.lighten(1.875), // #757575

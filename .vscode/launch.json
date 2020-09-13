@@ -11,7 +11,7 @@
             "request": "launch",
             "runtimeExecutable": "${execPath}",
             "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}/vscode"
+                "--extensionDevelopmentPath=${workspaceFolder}/themes/vscode"
             ]
         }
     ]

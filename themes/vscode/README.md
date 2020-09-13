@@ -10,7 +10,7 @@ ext install alloy-theme
 ```
 
 ## Screenshot
-![Theme Screenshot](doc/Screenshot1.png)
+![Theme Screenshot](doc/Screenshot2.png)
 
 ## Changelog
 You can take a look at the change log [here](CHANGELOG.md)
