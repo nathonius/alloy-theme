@@ -9,5 +9,8 @@ npm install
 npm run build
 ```
 
+## Screenshot
+![Theme Screenshot](themes/vscode/doc/Screenshot2.png)
+
 ## Changelog
 You can take a look at the change log [here](CHANGELOG.md)
