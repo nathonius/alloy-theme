@@ -471,7 +471,7 @@ export function render(theme: typeof Theme) {
       {
         scope: "comment",
         settings: {
-          foreground: `${theme["background-lighter-3"].hex()}`,
+          foreground: `${theme["foreground-muted"].hex()}`,
         },
       },
       {
@@ -743,7 +743,7 @@ export function render(theme: typeof Theme) {
       {
         scope: "comment",
         settings: {
-          foreground: `${theme["background-lighter-3"].hex()}`,
+          foreground: `${theme["foreground-muted"].hex()}`,
           fontStyle: "italic",
         },
       },
