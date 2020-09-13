@@ -2,12 +2,11 @@
   "name": "alloy-theme",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build.js",
   "scripts": {
     "build": "tsc && node build.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "vscode:package": "cd vscode && npx vsce package",
-    "vscode:publish": "cd vscode && npx vsce publish"
+    "vscode:package": "cd themes/vscode && npx vsce package",
+    "vscode:publish": "cd themes/vscode && npx vsce publish"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/OfficerHalf/alloy-theme/issues"
   },
-  "homepage": "https://github.com/OfficerHalf/alloy-theme/tree/master/vscode#readme",
+  "homepage": "https://github.com/OfficerHalf/alloy-theme",
   "devDependencies": {
     "@types/color": "^3.0.1",
     "@types/lodash.template": "^4.5.0",
