@@ -1,32 +1,31 @@
 {
-    "name": "alloy-theme",
-    "displayName": "Alloy Theme",
-    "description": "A more monochromatic, subdued Monokai theme.",
-    "version": "1.0.0",
-    "publisher": "officerhalf",
-    "engines": {
-        "vscode": "^1.24.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "bugs": {
-        "type": "git",
-        "url": "https://github.com/OfficerHalf/alloy-theme/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/OfficerHalf/alloy-theme"
-    },
-    "homepage": "https://github.com/OfficerHalf/alloy-theme",
-    "icon": "doc/icon.png",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Alloy",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Alloy.json"
-            }
-        ]
-    }
+  "name": "alloy-theme",
+  "version": "2.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "build": "tsc && node build.js",
+    "vscode:package": "cd themes/vscode && npx vsce package",
+    "vscode:publish": "cd themes/vscode && npx vsce publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfficerHalf/alloy-theme.git"
+  },
+  "author": "OfficerHalf <nathan@nathan-smith.org> (nathan-smith.org)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OfficerHalf/alloy-theme/issues"
+  },
+  "homepage": "https://github.com/OfficerHalf/alloy-theme",
+  "devDependencies": {
+    "@types/color": "^3.0.1",
+    "@types/lodash.template": "^4.5.0",
+    "@types/node": "^14.10.1",
+    "@types/sass": "^1.16.0",
+    "color": "^3.1.2",
+    "lodash.template": "^4.5.0",
+    "sass": "^1.26.10",
+    "vsce": "^1.79.5"
+  }
 }
