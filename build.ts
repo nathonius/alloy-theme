@@ -4,6 +4,7 @@ import vscode from "./templates/vscode";
 import prismjs from "./templates/prismjs";
 import conemu from "./templates/conemu";
 import windowsTerminal from "./templates/windows-terminal";
+import iterm from "./templates/iterm";
 
 // render vscode
 console.log("Reading vscode template...");
@@ -31,3 +32,9 @@ writeFileSync(
   JSON.stringify(alloyWindowsTerminal)
 );
 console.log("Wrote themes/windows-terminal/Alloy.json");
+
+// render iterm
+console.log("Reading iTerm template...");
+const alloyiTerm = iterm(theme, "./templates/iterm.itermcolors");
+writeFileSync("./themes/iterm/Alloy.itermcolors", alloyiTerm);
+console.log("Wrote themes/iterm/Alloy.itermcolors");
